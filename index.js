@@ -1,12 +1,14 @@
 const wordList = ['Git', 'Action', 'Merge', 'Build', 'Deploy'];
 
 function makeRandomIndex(list) {
-  return Math.floor(Math.random() * list.length);
+  return Math.floor(Math.random() * list.length) + 5;
 }
 
 function chooseWordFromListByIndex(i, list) {
   return list[i];
 }
+
+// Add new fuction
 
 window.renderResultIntoHtml = function () {
   const index = makeRandomIndex(wordList);
