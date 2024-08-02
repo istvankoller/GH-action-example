@@ -8,6 +8,8 @@ function chooseWordFromListByIndex(i, list) {
   return list[i];
 }
 
+// Add new fuction
+
 window.renderResultIntoHtml = function () {
   const index = makeRandomIndex(wordList);
   const randomWorld = chooseWordFromListByIndex(index, wordList);
